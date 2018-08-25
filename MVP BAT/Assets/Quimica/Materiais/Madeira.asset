@@ -18,4 +18,4 @@ MonoBehaviour:
   condTermica: 5
   massaCombustivel: 0.194
   calorQueima: 5
-  condutorEletrico: 0
+  condutorEletrico: 1

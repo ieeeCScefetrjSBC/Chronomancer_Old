@@ -64,17 +64,19 @@
     <Compile Include="Assets\Movimentação\Player.cs" />
     <Compile Include="Assets\Quimica\MaterialQuimico.cs" />
     <Compile Include="Assets\Quimica\Quimica.cs" />
+    <Compile Include="Assets\Skills\SkillUser.cs" />
+    <None Include="Assets\easterEggs.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/rafan/Documents/UnityProjetos/MVP BAT/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/rafan/Documents/UnityProjetos/MVP BAT/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/rafan/Documents/UnityProjetos/MVP BAT/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/rafan/Documents/UnityProjetos/MVP BAT/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
