@@ -64,6 +64,7 @@
     <Compile Include="Assets\Movimentação\Player.cs" />
     <Compile Include="Assets\Quimica\MaterialQuimico.cs" />
     <Compile Include="Assets\Quimica\Quimica.cs" />
+    <Compile Include="Assets\Skills\Inimigo.cs" />
     <Compile Include="Assets\Skills\SkillUser.cs" />
     <None Include="Assets\easterEggs.txt" />
     <Reference Include="UnityEditor.StandardEvents">

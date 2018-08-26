@@ -67,8 +67,8 @@ public class Quimica : MonoBehaviour
         }
 
         int tempDif = (int)(calor - tempAr);
-        float resfriAr = material.condTermica * tempDif * tempDif * tempDif * Mathf.Abs(tempDif) * 0.0000000001f;
-        Debug.Log(resfriAr);
+        float resfriAr = (1f + material.condTermica) * tempDif * tempDif * tempDif * Mathf.Abs(tempDif) * 0.0000000001f;
+        
         if (Time.frameCount % 10 == 0)
         {
             calor -= resfriAr;
@@ -82,7 +82,10 @@ public class Quimica : MonoBehaviour
         if (qui != null)
         {
             float dis = (ou.transform.position - transform.position).magnitude;
-            float troca = (material.condTermica + qui.material.condTermica) / (2 * dis);
+            
+            float troca = (dis <= 0.1f)? 0.1f : (material.condTermica + qui.material.condTermica) / (2 * (dis));
+            
+            Debug.Log(troca);
 
             if (qui.calor > calor)
             {
