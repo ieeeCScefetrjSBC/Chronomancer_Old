@@ -14,12 +14,13 @@ public class Quimica : MonoBehaviour
     public MaterialQuimico material;
     private bool emChamas;
     public bool fonteTensao;
-    //[SerializeField]
     public bool tensaoEle;
     private bool frameEle;
     public float calor = 25;
     [Range(0f, 1f)]
     public float humidade;
+    [Range(0f, 1f)]
+    public float combustivel;
 
 
     void Start()

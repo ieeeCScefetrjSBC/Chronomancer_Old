@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Mapa.cs" />
     <Compile Include="Assets\Movimentacao\Cam.cs" />
     <Compile Include="Assets\Movimentacao\Player.cs" />
     <Compile Include="Assets\Quimica\MaterialQuimico.cs" />
@@ -68,6 +69,9 @@
     <Compile Include="Assets\Skills\Inimigo.cs" />
     <Compile Include="Assets\Skills\SkillUser.cs" />
     <None Include="Assets\easterEggs.txt" />
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT 0.1/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT 0.1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -77,14 +81,11 @@
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT 0.1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT 0.1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT 0.1/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
       <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT 0.1/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/rafan/Documents/UnityProjetos/GitHub/Chronomancer/MVP BAT 0.1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
