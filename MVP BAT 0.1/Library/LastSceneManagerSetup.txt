@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Cenas/Teste1.unity
+- path: Assets/Cenas/PCGTest.unity
   isLoaded: 1
   isActive: 1
