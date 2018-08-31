@@ -13,8 +13,10 @@ public class Player : MonoBehaviour {
     public float maxRunVel;
     public float skill1CoolDown;
     public float skill2CoolDown;
+    public float skill3CoolDown;
     private float skill1cdt;
     private float skill2cdt;
+    private float skill3cdt;
     private Animator anim;
     private SpriteRenderer spr;
     private Sprite sp;
@@ -77,6 +79,12 @@ public class Player : MonoBehaviour {
         {
             skill2cdt = Time.time;
             skills.Chain_Lightning((Vector2)transform.position, dir, 15, 10);
+        }
+
+        if (Input.GetMouseButton(2) && Time.time > skill3cdt + skill3CoolDown)
+        {
+            skill3cdt = Time.time;
+            skills.Crippling_Oil((Vector2)transform.position, dir, 15, 10);
         }
     }
 }

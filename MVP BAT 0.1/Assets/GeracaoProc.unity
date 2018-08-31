@@ -23984,14 +23984,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1124019408}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b229fea53eae044685196e8a511fe60, type: 3}
+  m_Script: {fileID: 11500000, guid: f617eda8118f35d408afe91ee54e3ae4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  probSaida: 0.137
-  maxX: 10
-  maxY: 12
+  probSala: 0.31
+  maxX: 30
+  maxY: 30
   disBlocos: 30
-  caminho: {fileID: 1918222977}
+  x: 0
+  y: 0
+  caminho: {fileID: 0}
+  mantem: 0
 --- !u!1 &1434881868
 GameObject:
   m_ObjectHideFlags: 0
@@ -28920,6 +28923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Gelo: {fileID: 1015819258953708, guid: 48d67b462bf17704bad7d2a88f5913a9, type: 2}
+  Oleo: {fileID: 0}
 --- !u!1 &1518186007
 GameObject:
   m_ObjectHideFlags: 0

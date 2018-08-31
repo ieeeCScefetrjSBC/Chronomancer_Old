@@ -8,8 +8,10 @@ public class SkillUser : MonoBehaviour {
 
     [SerializeField]
     private GameObject Gelo;
+    [SerializeField]
+    private GameObject Oleo;
 
-	void Start () {
+    void Start () {
 		
 	}
 	
@@ -19,7 +21,6 @@ public class SkillUser : MonoBehaviour {
 
     public void Ice_Block(Vector2 pos, Vector2 dir,float tempo, float dano) {
         RaycastHit2D r = Physics2D.Raycast(pos, dir);
-        //Debug.Log(r.transform.name);
         if (r.transform != null){
             Quimica qui = r.transform.GetComponent<Quimica>();
             if (qui != null)  qui.humidade = 1;
@@ -56,5 +57,10 @@ public class SkillUser : MonoBehaviour {
                 i.vida -= dano;
             }
         }
+    }
+
+    public void Crippling_Oil(Vector2 pos, Vector2 dir, float tempo, float dano)
+    {
+        Instantiate(Oleo, transform.position, Quaternion.identity);
     }
 }

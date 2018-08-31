@@ -1,5 +1,4 @@
 sceneSetups:
-- path: Assets/Cenas/Effect Master 2018 the return origins GAME OF THE YEAR DEFINITIVE
-    EDITION.unity
+- path: Assets/Cenas/Teste1.unity
   isLoaded: 1
   isActive: 1

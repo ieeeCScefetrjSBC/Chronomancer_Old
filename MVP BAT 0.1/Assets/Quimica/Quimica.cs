@@ -41,7 +41,7 @@ public class Quimica : MonoBehaviour
 
         if (transform.localScale.x <= 0) Destroy(gameObject);
 
-        if ((calor > material.pontoIgnicao * (1 + humidade)) && !emChamas && transform.localScale.x >= material.massaCombustivel)
+        if ((calor > material.pontoIgnicao * (1 + humidade - combustivel)) && !emChamas && transform.localScale.x >= material.massaCombustivel)
         {
             emChamas = true;
             ps.Play();
@@ -66,7 +66,7 @@ public class Quimica : MonoBehaviour
         if (calor > material.pontoFusao)
         {
             material.liquido = true;
-            coli.enabled = false;
+            if(coli != null) coli.enabled = false;
         }
         else
         {
@@ -106,7 +106,8 @@ public class Quimica : MonoBehaviour
 
             if (material.liquido && qui.material.molhabil)
             {
-                qui.humidade += 0.001f * humidade;
+                qui.humidade += 0.001f * (1 - material.massaCombustivel);
+                qui.combustivel += 0.001f * material.massaCombustivel;
                 transform.localScale -= Vector3.one * 0.001f;
             }
 
