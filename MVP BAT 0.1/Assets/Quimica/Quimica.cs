@@ -12,7 +12,7 @@ public class Quimica : MonoBehaviour
 
     private Collider2D coli;
     public MaterialQuimico material;
-    private bool emChamas;
+    public bool emChamas;
     public bool fonteTensao;
     public bool tensaoEle;
     private bool frameEle;

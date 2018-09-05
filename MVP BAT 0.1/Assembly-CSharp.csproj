@@ -62,8 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ErbGameArt\Random effects pack\Demo scenes\CameraHolder.cs" />
-    <Compile Include="Assets\Mapa.cs" />
-    <Compile Include="Assets\MapaCyber.cs" />
+    <Compile Include="Assets\GeracaoProcedual\Mapa.cs" />
+    <Compile Include="Assets\GeracaoProcedual\MapaCyber.cs" />
+    <Compile Include="Assets\IA\IATeste.cs" />
+    <Compile Include="Assets\IA\Inimigo.cs" />
     <Compile Include="Assets\Movimentacao\Cam.cs" />
     <Compile Include="Assets\Movimentacao\Player.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
@@ -74,7 +76,6 @@
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
     <Compile Include="Assets\Quimica\MaterialQuimico.cs" />
     <Compile Include="Assets\Quimica\Quimica.cs" />
-    <Compile Include="Assets\Skills\Inimigo.cs" />
     <Compile Include="Assets\Skills\Oleo.cs" />
     <Compile Include="Assets\Skills\SkillUser.cs" />
     <None Include="Assets\easterEggs.txt" />

@@ -29,6 +29,9 @@ public class Player : MonoBehaviour {
         spr = GetComponent<SpriteRenderer>();
         skills = GetComponent<SkillUser>();
         sp = spr.sprite;
+
+        MapaCyber mc = FindObjectOfType<MapaCyber>();
+        if (mc != null) transform.position = MapaCyber.sala[0].transform.position;
 	}
 	
 	void Update () {

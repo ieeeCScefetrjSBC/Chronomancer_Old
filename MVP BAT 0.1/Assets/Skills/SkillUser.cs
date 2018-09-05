@@ -28,7 +28,7 @@ public class SkillUser : MonoBehaviour {
             Inimigo i = r.transform.gameObject.GetComponent<Inimigo>();
             if (i != null){
                 Rigidbody2D b = r.transform.gameObject.GetComponent<Rigidbody2D>();
-                b.isKinematic = true;
+                b.constraints = RigidbodyConstraints2D.FreezeAll;
                 b.velocity = Vector2.zero;
                 b.angularVelocity = 0;
                 Instantiate(Gelo, r.transform);
